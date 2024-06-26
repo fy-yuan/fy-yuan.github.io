@@ -15,9 +15,9 @@ Please refer to his [CV](../assets/CV.pdf).
 
 Research interests
 ======
-1. Mathematical finance and stochastic control;
-2. Mean-field models, especially their applications in finance or other aspects of social sciences;
-3. Time-inconsistency in dynamic decision problems.
+- Mathematical finance and stochastic control;
+- Mean-field models, especially their applications in finance or other aspects of social sciences;
+- Time-inconsistency in dynamic decision problems.
 
 Contact
 ======
