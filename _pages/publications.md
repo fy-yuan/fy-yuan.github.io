@@ -18,10 +18,14 @@ Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, arXiv: 2401.08323.
 
 ## [Dynamic portfolio selection for nonlinear law-dependent preferences](https://arxiv.org/abs/2311.06745).
 
- Zongxia Liang, Jianming Xia and **Fengyi Yuan**, arXiv: 2311.06745.
+Zongxia Liang, Jianming Xia and **Fengyi Yuan**, arXiv: 2311.06745.
 [Download Slides](../assets/Nonlinear_slides.pdf)
 
 ## [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://arxiv.org/abs/2311.00381).
+
+Xiang Yu and **Fengyi Yuan**, arXiv: 2311.00381. [Download Slides]
+
+Minor Revision in ***Finance and Stochastics***.
 
 
 Journal Publications 
