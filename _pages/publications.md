@@ -14,18 +14,31 @@ Preprints
 
 ## [Dynamic portfolio selection under generalized disappointment aversion](https://arxiv.org/abs/2401.08323).
 
-Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, arXiv: 2401.08323.
+Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, 2024. arXiv: 2401.08323.
 
 ## [Dynamic portfolio selection for nonlinear law-dependent preferences](https://arxiv.org/abs/2311.06745).
 
-Zongxia Liang, Jianming Xia and **Fengyi Yuan**, arXiv: 2311.06745.
+Zongxia Liang, Jianming Xia and **Fengyi Yuan**, 2023. arXiv: 2311.06745.
 [Download Slides](../assets/Nonlinear_slides.pdf)
 
 ## [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://arxiv.org/abs/2311.00381).
 
-Xiang Yu and **Fengyi Yuan**, arXiv: 2311.00381. [Download Slides]
+Xiang Yu and **Fengyi Yuan**, 2023. arXiv: 2311.00381. [Download Slides](../assets/TIS_slides.pdf)
 
-Minor Revision in ***Finance and Stochastics***.
+Major Revision in ***Finance and Stochastics***.
+
+## [Equilibria for time-inconsistent singular control problems](https://arxiv.org/abs/2310.09198).
+
+Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**, 2023. arXiv: 2310.09198.
+
+Minor Revision in ***SIAM Journal on Control and Optimization***.
+
+## [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166).
+
+Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**, 2023. arXiv: 2011.10166.
+
+Major Revision in ***SIAM Journal on Financial Mathematics***.
+
 
 
 Journal Publications 
