@@ -14,7 +14,7 @@ author_profile: true
 
 MATH526(STAT526), Discrete State Stochastic Processes, Fall 2024.
 
-## As a teaching assistant:
+## As a teaching assistant
 
 ### Tsinghua University:
 
