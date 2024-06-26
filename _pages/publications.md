@@ -5,14 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-**All authors are sorted in alphabetical order.**
-<!--{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
--->
-
 {% include base_path %}
 
+**All authors are sorted in alphabetical order.**
 
 Preprints
 ======
@@ -31,3 +26,10 @@ Journal Publications
 
 Academic Presentations(selected)
 ======
+
+1. **2023 Global Young Scholars' Forum**, The Chinese University of Hong Kong (Shenzhen), Online, December 8th, 2023.
+1. **Financial/Actuarial Mathematics Seminar**, The University of Michigan, Online,  November 29th, 2023.
+1. **The Mathematical Finance Series Seminars**, Peking University, Online, October 27th, 2022.
+1. **The 6th PKU-NUS Annual International Conference on Quantitative Finance and Economics**, Peking University & National University of Singapore, Online, May 2022.
+1. **The 6th Asian Quantitative Finance Seminar**, National University of Singapore, Online, January 2021.
+1. **The 10th Risk Management and Actuarial Forum**, Renmin University of China, Beijing, China, November 2019.
