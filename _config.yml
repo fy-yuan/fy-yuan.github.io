@@ -21,7 +21,7 @@ repository               : "fy-yuan/fy-yuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "portrait.png"
   name             : "Fengyi Yuan"
   pronouns         : # example: "she/her"  
   bio              : " "
