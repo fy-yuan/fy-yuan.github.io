@@ -12,9 +12,13 @@ author_profile: true
 Preprints
 ======
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+### [Dynamic portfolio selection under generalized disappointment aversion](https://arxiv.org/abs/2401.08323).
+
+Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**.
+[Download Slides]
+
+
+
 
 Journal Publications 
 ======
