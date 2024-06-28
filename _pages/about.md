@@ -9,7 +9,7 @@ redirect_from:
 
 Dr. Fengyi Yuan obtained his Ph.D. in math from [Tsinghua University](https://math.tsinghua.edu.cn) in June 2024, supervised by [Prof. Zongxia Liang](https://math.tsinghua.edu.cn/info/1125/1623.htm). 
 
-In fall 2024, he will join [the University of Michigan, Ann Arbor](https://lsa.umich.edu/math/people/postdoc-faculty.directory.html?tag=math/financial-actuarial&tagns=michigan-lsa&tagtext=Financial%20and%20Actuarial) as a postdoc (officially Byrne Research Assistant Professor). He works in the group led by [Prof. Erhan Bayraktar](https://sites.lsa.umich.edu/erhan/).
+In fall 2024, he will join [University of Michigan, Ann Arbor](https://lsa.umich.edu/math/people/postdoc-faculty.directory.html?tag=math/financial-actuarial&tagns=michigan-lsa&tagtext=Financial%20and%20Actuarial) as a postdoc (officially Byrne Research Assistant Professor). He works in the group led by [Prof. Erhan Bayraktar](https://sites.lsa.umich.edu/erhan/).
 
 From July 2023 to January 2024, he worked as a Research Assistant at [the Hong Kong Polytechnic University](https://www.polyu.edu.hk/ama/), mentored by [Prof. Xiang Yu](https://sites.google.com/site/xiangyuama/home).
 
