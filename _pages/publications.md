@@ -7,10 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
-**All authors are sorted in alphabetical order.**
+**All authors contribute equally and are sorted in alphabetical order.**
 
 Preprints
 ======
+
+## [Optimal consumption under loss-averse multiplicative habit-formation preferences](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879543).
+
+Bahman Angoshtari, Xiang Yu and **Fengyi Yuan**, 2024.
+
 
 ## [Dynamic portfolio selection under generalized disappointment aversion](https://arxiv.org/abs/2401.08323).
 
