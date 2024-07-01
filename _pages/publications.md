@@ -42,7 +42,7 @@ Minor Revision in ***SIAM Journal on Control and Optimization***.
 
 Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**, 2023. arXiv: 2011.10166.
 
-Major Revision in ***SIAM Journal on Financial Mathematics***.
+Minor Revision in ***SIAM Journal on Financial Mathematics***.
 
 
 
