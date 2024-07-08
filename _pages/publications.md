@@ -12,6 +12,10 @@ author_profile: true
 Preprints
 ======
 
+## [Unified continuous-time q-learning for mean-field game and mean-field control problems](https://arxiv.org/abs/2407.04521).
+
+Xiaoli Wei, Xiang Yu and **Fengyi Yuan**, 2024. arXiv: 2407.04521.
+
 ## [Optimal consumption under loss-averse multiplicative habit-formation preferences](https://arxiv.org/abs/2406.20063).
 
 Bahman Angoshtari, Xiang Yu and **Fengyi Yuan**, 2024. arXiv: 2406.20063. [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879543).
