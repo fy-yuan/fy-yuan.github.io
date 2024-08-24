@@ -25,6 +25,8 @@ Research interests
 Contact
 ======
 Office: East Hall 1834, 530 Church Street, Ann Arbor, MI, 48109.
+
 Email: [fyuanmath@outlook.com](mailto:fyuanmath@outlook.com); [fengyiy@umich.edu](mailto:fengyiy@umich.edu).
+
 Tel: (+1)734-680-3299.
 
