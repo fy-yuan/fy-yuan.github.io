@@ -30,6 +30,8 @@ Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, 2024. arXiv: 2401.0
 Zongxia Liang, Jianming Xia and **Fengyi Yuan**, 2023. arXiv: 2311.06745.
 [Download Slides](../assets/Nonlinear_slides.pdf)
 
+Major Revision in ***Mathematics of Operations Research***.
+
 ## [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://arxiv.org/abs/2311.00381).
 
 Xiang Yu and **Fengyi Yuan**, 2023. arXiv: 2311.00381. [Download Slides](../assets/TIS_slides.pdf)
