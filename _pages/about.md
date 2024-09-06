@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-Dr. Fengyi Yuan is a postdoc (Byrne Research Assistant Professor) at [University of Michigan, Ann Arbor](https://lsa.umich.edu/math/people/postdoc-faculty.directory.html?tag=math/financial-actuarial&tagns=michigan-lsa&tagtext=Financial%20and%20Actuarial). He works in the group led by [Prof. Erhan Bayraktar](https://sites.lsa.umich.edu/erhan/).
+Dr. Fengyi Yuan is a postdoc (Byrne Research Assistant Professor) at [University of Michigan, Ann Arbor](https://lsa.umich.edu/math/people/postdoc-faculty/fengyi-yuan.html). He works in the group led by [Prof. Erhan Bayraktar](https://sites.lsa.umich.edu/erhan/).
 
 He obtained his Ph.D. in math from [Tsinghua University](https://math.tsinghua.edu.cn) in June 2024, supervised by [Prof. Zongxia Liang](https://math.tsinghua.edu.cn/info/1125/1623.htm). 
 
