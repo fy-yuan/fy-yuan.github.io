@@ -42,7 +42,7 @@ Major Revision in ***Finance and Stochastics***.
 
 Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**, 2023. arXiv: 2310.09198.
 
-Minor Revision in ***SIAM Journal on Control and Optimization***.
+Accepted by ***SIAM Journal on Control and Optimization***, Sep 2024.
 
 ## [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166).
 
