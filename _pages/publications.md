@@ -38,12 +38,6 @@ Xiang Yu and **Fengyi Yuan**, 2023. arXiv: 2311.00381. [Download Slides](../asse
 
 Major Revision in ***Finance and Stochastics***.
 
-## [Equilibria for time-inconsistent singular control problems](https://arxiv.org/abs/2310.09198).
-
-Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**, 2023. arXiv: 2310.09198.
-
-Accepted by ***SIAM Journal on Control and Optimization***, Sep 2024.
-
 ## [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166).
 
 Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**, 2023. arXiv: 2011.10166.
@@ -55,6 +49,7 @@ Minor Revision in ***SIAM Journal on Financial Mathematics***.
 Journal Publications 
 ======
 
+1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Equilibria for time-inconsistent singular control problems](https://epubs.siam.org/doi/10.1137/23M1609701). ***SIAM Journal on Control and Optimization***, 12(6):2024, 3213-3238.
 1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Consumption-investment decisions with endogenous reference point and drawdown constraint](https://link.springer.com/article/10.1007/s11579-023-00335-x). ***Mathematics and Financial Economics***, 17: 2023, pages 285-334.
 1. Zongxia Liang and **Fengyi Yuan**. [Weak equilibria for time-inconsistent control: with applications to investment-withdrawal decisions](https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.12391). ***Mathematical Finance***, 33(3): 2023, pages 891-945.
 1.  Lin He, Zongxia Liang and **Fengyi Yuan**. [Optimal DB-PAYGO pension management towards a habitual contribution rate](https://www.sciencedirect.com/science/article/abs/pii/S0167668720301050). ***Insurance Mathematics and Economics***, 94(3): 2020, pages 125-141.
