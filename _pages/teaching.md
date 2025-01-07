@@ -12,7 +12,9 @@ author_profile: true
 
 ### The University of Michigan:
 
-MATH526(STAT526), Discrete State Stochastic Processes, Fall 2024.
+- MATH526(STAT526), Discrete State Stochastic Processes, Fall 2024.
+- MATH474, Stochastic Analysis, Winter 2024.
+
 
 ## As a teaching assistant
 
