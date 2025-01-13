@@ -36,7 +36,7 @@ Major Revision in ***Mathematics of Operations Research***.
 
 Xiang Yu and **Fengyi Yuan**, 2023. arXiv: 2311.00381. [Download Slides](../assets/TIS_slides.pdf)
 
-Major Revision in ***Finance and Stochastics***.
+Minor Revision in ***Finance and Stochastics***.
 
 ## [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166).
 
