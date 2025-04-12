@@ -32,17 +32,12 @@ Zongxia Liang, Jianming Xia and **Fengyi Yuan**, 2023. arXiv: 2311.06745.
 
 Major Revision in ***Mathematics of Operations Research***.
 
-## [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166).
-
-Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**, 2023. arXiv: 2011.10166.
-
-Minor Revision in ***SIAM Journal on Financial Mathematics***.
-
 
 
 Journal Publications 
 ======
 
+1. Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**. [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166). ***SIAM Journal on Financial Mathematics***, forthcoming.
 1. Xiang Yu and **Fengyi Yuan**. [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://arxiv.org/abs/2311.00381). ***Finance and Stochastics***, forthcoming.
 1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Equilibria for time-inconsistent singular control problems](https://epubs.siam.org/doi/10.1137/23M1609701). ***SIAM Journal on Control and Optimization***, 12(6):2024, 3213-3238.
 1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Consumption-investment decisions with endogenous reference point and drawdown constraint](https://link.springer.com/article/10.1007/s11579-023-00335-x). ***Mathematics and Financial Economics***, 17: 2023, pages 285-334.
