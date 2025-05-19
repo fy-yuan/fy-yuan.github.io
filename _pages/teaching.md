@@ -14,6 +14,7 @@ author_profile: true
 
 - MATH526(STAT526), Discrete State Stochastic Processes, Fall 2024.
 - MATH474, Stochastic Analysis, Winter 2025.
+- MATH425, Probability Theory, Spring 2025.
 
 
 ## As a teaching assistant
