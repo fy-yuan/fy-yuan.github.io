@@ -30,7 +30,7 @@ Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, 2024. arXiv: 2401.0
 Zongxia Liang, Jianming Xia and **Fengyi Yuan**, 2023. arXiv: 2311.06745.
 [Download Slides](../assets/Nonlinear_slides.pdf)
 
-Major Revision in ***Mathematics of Operations Research***.
+Accepted, ***Mathematics of Operations Research***.
 
 
 
