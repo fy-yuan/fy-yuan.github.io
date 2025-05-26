@@ -48,7 +48,7 @@ Journal Publications
 Academic Presentations(selected)
 ======
 
-1. **Financial Mathematics Seminar**, BIMSA, May 22nd, 2025.
+1. **Financial Mathematics Seminar**, BIMSA, May 22nd, 2025. [Download Slides](../assets/BIMSA.pdf)
 1. **2023 Global Young Scholars' Forum**, The Chinese University of Hong Kong (Shenzhen), Online, December 8th, 2023.
 1. **Financial/Actuarial Mathematics Seminar**, The University of Michigan, Online,  November 29th, 2023.
 1. **The Mathematical Finance Series Seminars**, Peking University, Online, October 27th, 2022.
