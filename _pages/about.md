@@ -14,6 +14,8 @@ He obtained his Ph.D. in math from [Tsinghua University](https://math.tsinghua.e
 
 From July 2023 to January 2024, he worked as a Research Assistant at [the Hong Kong Polytechnic University](https://www.polyu.edu.hk/ama/), mentored by [Prof. Xiang Yu](https://sites.google.com/site/xiangyuama/home).
 
+In Fall 2025, he will join [School of Science and Engineering (SSE) of the Chinese University of Hong Kong, Shenzhen](https://sse.cuhk.edu.cn/en), as an tenure-track assistant professor.
+
 Please refer to his [CV](../assets/CV.pdf).
 
 Research interests
