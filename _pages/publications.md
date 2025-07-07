@@ -31,7 +31,7 @@ Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, 2024. arXiv: 2401.0
 Journal Publications 
 ======
 
-1. Zongxia Liang, Jianming Xia and **Fengyi Yuan**. [Dynamic portfolio selection for nonlinear law-dependent preferences](https://pubsonline.informs.org/doi/10.1287/moor.2023.0345)[ArXiv](https://arxiv.org/abs/2311.06745). ***Mathematics of Operations Research***, forthcoming.
+1. Zongxia Liang, Jianming Xia and **Fengyi Yuan**. [Dynamic portfolio selection for nonlinear law-dependent preferences](https://pubsonline.informs.org/doi/10.1287/moor.2023.0345)   [ArXiv](https://arxiv.org/abs/2311.06745). ***Mathematics of Operations Research***, forthcoming.
 1. Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**. [Retirement decision with addictive habit persistence in a jump diffusion market](https://arxiv.org/abs/2011.10166). ***SIAM Journal on Financial Mathematics***, forthcoming.
 1. Xiang Yu and **Fengyi Yuan**. [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://arxiv.org/abs/2311.00381). ***Finance and Stochastics***, forthcoming.
 1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Equilibria for time-inconsistent singular control problems](https://epubs.siam.org/doi/10.1137/23M1609701). ***SIAM Journal on Control and Optimization***, 12(6):2024, 3213-3238.
