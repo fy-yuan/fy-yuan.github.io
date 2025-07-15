@@ -12,6 +12,10 @@ author_profile: true
 Preprints
 ======
 
+## Solving dynamic portfolio selection problems via score-based diffusion models
+
+Ahmad Aghapour, Erhan Bayraktar and **Fengyi Yuan**, 2025. [arXiv](https://arxiv.org/abs/2507.09916), [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350795), [code](https://github.com/fy-yuan/diffusion_dynamic_mv).
+
 ## [Unified continuous-time q-learning for mean-field game and mean-field control problems](https://arxiv.org/abs/2407.04521).
 
 Xiaoli Wei, Xiang Yu and **Fengyi Yuan**, 2024. arXiv: 2407.04521.
