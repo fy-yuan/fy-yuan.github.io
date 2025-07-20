@@ -14,7 +14,7 @@ Preprints
 
 ## [Solving dynamic portfolio selection problems via score-based diffusion models](https://arxiv.org/abs/2507.09916)
 
-Ahmad Aghapour, Erhan Bayraktar and **Fengyi Yuan**, 2025. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350795), [code](https://github.com/fy-yuan/diffusion_dynamic_mv).
+Ahmad Aghapour, Erhan Bayraktar and **Fengyi Yuan**, 2025. arXiv: 2507.09916. [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350795), [code](https://github.com/fy-yuan/diffusion_dynamic_mv).
 
 ## [Unified continuous-time q-learning for mean-field game and mean-field control problems](https://arxiv.org/abs/2407.04521).
 
@@ -47,6 +47,7 @@ Journal Publications
 Academic Presentations(selected)
 ======
 
+1. **SIAM Conference on Financial Mathematics and Engineering**, Miami, July 18th, 2025. [Download Slides]()
 1. **Financial Mathematics Seminar**, BIMSA, May 22nd, 2025. [Download Slides](../assets/BIMSA.pdf)
 1. **2023 Global Young Scholars' Forum**, The Chinese University of Hong Kong (Shenzhen), Online, December 8th, 2023.
 1. **Financial/Actuarial Mathematics Seminar**, The University of Michigan, Online,  November 29th, 2023.
