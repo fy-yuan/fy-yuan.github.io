@@ -49,6 +49,7 @@ Academic Presentations(selected)
 
 1. **SIAM Conference on Financial Mathematics and Engineering**, Miami, July 18th, 2025. [Download Slides](../assets/Fengyi-SIFIN2025.pdf)
 1. **Financial Mathematics Seminar**, BIMSA, May 22nd, 2025. [Download Slides](../assets/BIMSA.pdf)
+1. **Financial/Actuarial Mathematics Seminar**, The University of Michigan, Ann Arbor, September 4th, 2024.
 1. **2023 Global Young Scholars' Forum**, The Chinese University of Hong Kong (Shenzhen), Online, December 8th, 2023.
 1. **Financial/Actuarial Mathematics Seminar**, The University of Michigan, Online,  November 29th, 2023.
 1. **The Mathematical Finance Series Seminars**, Peking University, Online, October 27th, 2022.
