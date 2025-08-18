@@ -25,8 +25,8 @@ author:
   name             : "Fengyi Yuan"
   pronouns         : # example: "she/her"  
   bio              : " "
-  location         : "Ann Arbor, MI, US"
-  employer         : "University of Michigan"
+  location         : "Shenzhen, Guangdong, China"
+  employer         : "The Chinese University of Hong Kong, Shenzhen"
   uri              : # URL
   email            : # URL
 
@@ -38,7 +38,7 @@ author:
   semantic         : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Fengyi-Yuan"
-  Umich profile    : "https://lsa.umich.edu/math/people/postdoc-faculty/fengyi-yuan.html"
+  CUHK-SZ profile    : "https://lsa.umich.edu/math/people/postdoc-faculty/fengyi-yuan.html"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
