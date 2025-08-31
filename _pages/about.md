@@ -12,7 +12,7 @@ I am an Assistant Professor at [School of Science and Engineering (SSE) of the C
 
 Previously, I was a Byrne Research Assistant Professor at [University of Michigan, Ann Arbor](https://lsa.umich.edu/math/people/postdoc-faculty/fengyi-yuan.html) from 2024 to 2025, working in the group led by [Prof. Erhan Bayraktar](https://sites.lsa.umich.edu/erhan/).
 
-I obtained his Ph.D. in math from [Tsinghua University](https://math.tsinghua.edu.cn) in June 2024, supervised by [Prof. Zongxia Liang](https://math.tsinghua.edu.cn/info/1125/1623.htm). 
+I obtained my Ph.D. in math from [Tsinghua University](https://math.tsinghua.edu.cn) in June 2024, supervised by [Prof. Zongxia Liang](https://math.tsinghua.edu.cn/info/1125/1623.htm). 
 
 Please refer to my [CV](../assets/CV.pdf).
 
