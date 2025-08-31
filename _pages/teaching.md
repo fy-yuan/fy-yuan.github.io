@@ -16,6 +16,11 @@ author_profile: true
 - MATH474, Stochastic Analysis, Winter 2025.
 - MATH425, Probability Theory, Spring 2025.
 
+### The Chinese University of Hong Kong, Shenzhen:
+
+- MAT2050, Mathematical Analysis, Term 1, AY25-26.
+- MAT6810(MFM6004), Stochastic Calculus, Term 1, AY25-26.
+
 
 ## As a teaching assistant
 
