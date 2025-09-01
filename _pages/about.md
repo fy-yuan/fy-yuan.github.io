@@ -29,7 +29,10 @@ Research interests
 Contact
 ======
 
-Email: [fyuanmath@outlook.com](mailto:fyuanmath@outlook.com); [fengyiy@umich.edu](mailto:fengyiy@umich.edu).
+Address: Zhi Ren 403, the Chinese University of Hong Kong, Shenzhen,
+Shenzhen, Guangdong Province, China.
+
+Email: [yuanfengyi@cuhk.edu.cn](mailto: yuanfengyi@cuhk.edu.cn).
 
 Tel: (+86)130-5123-0311.
 
