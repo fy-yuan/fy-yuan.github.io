@@ -20,6 +20,7 @@ author_profile: true
 
 - MAT2050, Mathematical Analysis, Term 1, AY25-26.
 - MAT6810(MFM6004), Stochastic Calculus, Term 1, AY25-26.
+- MAT7710, Topics in Financial Mathematics, Term 2, AY25-26.
 
 
 ## As a teaching assistant
