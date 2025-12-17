@@ -14,7 +14,7 @@ Preprints
 
 ## [Solving dynamic portfolio selection problems via score-based diffusion models](https://arxiv.org/abs/2507.09916)
 
-(Presented in poster sessions of [GenAI in Fiance Workshop of NeurIPS 2025](https://sites.google.com/view/neurips-25-gen-ai-in-finance/accepted-papers))
+(Presented in poster sessions of [GenAI in Finance Workshop of NeurIPS 2025](https://sites.google.com/view/neurips-25-gen-ai-in-finance/accepted-papers))
 
 Ahmad Aghapour, Erhan Bayraktar and **Fengyi Yuan**, 2025. arXiv: 2507.09916. [[code]](https://github.com/fy-yuan/diffusion_dynamic_mv). Refer to [[ResearchGate]](https://www.researchgate.net/publication/393685384_Solving_dynamic_portfolio_selection_problems_via_score-based_diffusion_models) for the latest updated version.
 
