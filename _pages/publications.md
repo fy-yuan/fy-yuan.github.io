@@ -12,6 +12,10 @@ author_profile: true
 Preprints
 ======
 
+## Mean-field games with rough common noise: the compactification approach
+
+Erhan Bayraktar, Xihao He, Xiang Yu and **Fengyi Yuan**, 2026. [ResearchGate](https://www.researchgate.net/publication/401238560_Mean-field_games_with_rough_common_noise_the_compactification_approach).
+
 ## [Solving dynamic portfolio selection problems via score-based diffusion models](https://arxiv.org/abs/2507.09916)
 
 (Presented in poster sessions of [GenAI in Finance Workshop of NeurIPS 2025](https://sites.google.com/view/neurips-25-gen-ai-in-finance/accepted-papers))
