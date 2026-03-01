@@ -21,9 +21,9 @@ Feel free to contact me directly if you have any questions about my research or 
 
 Research interests
 ======
-- Dynamic decision problems from finance and operations research applications, especially with model uncertainty;
+- Mean field games and mean field control problems with rough common noise;
 - Applications of generative models;
-- Mean-field models, especially their applications in finance or other aspects of social sciences;
+- Stochastic control and its applications in financial mathematics;
 - Time-inconsistency in dynamic decision problems.
 
 Contact
