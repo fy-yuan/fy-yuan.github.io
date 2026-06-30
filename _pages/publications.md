@@ -48,7 +48,7 @@ Journal Publications
 
 Academic Presentations(selected)
 ======
-1. **BFS World Congress 2026**, Bologna, Italy, June 29th, 2026. [Download-Slides](../assets/BFS_Fengyi.pdf)
+1. **BFS World Congress 2026**, Bologna, Italy, June 29th, 2026. [Download Slides](../assets/BFS-Fengyi.pdf)
 1. **NUS Quantitative Finance Conference 2026**, Singapore, June 12th, 2026. [Download Slides](../assets/diffusion_mv_theory_slides.pdf)
 1. **SIAM Conference on Financial Mathematics and Engineering**, Miami, July 18th, 2025. [Download Slides](../assets/Fengyi-SIFIN2025.pdf)
 1. **Financial Mathematics Seminar**, BIMSA, May 22nd, 2025. [Download Slides](../assets/BIMSA.pdf)
