@@ -12,6 +12,11 @@ author_profile: true
 Preprints
 ======
 
+## [Sharp Wasserstein Convergence Rates for Empirical Path Laws of It\^o Processes]
+
+Xihao He and **Fengyi Yuan**, 2026. Submitted.
+
+
 ## [Mean-field games with rough common noise: the compactification approach](https://arxiv.org/abs/2602.22602)
 
 Erhan Bayraktar, Xihao He, Xiang Yu and **Fengyi Yuan**, 2026. arXiv: 2602.22602. [ResearchGate](https://www.researchgate.net/publication/401238560_Mean-field_games_with_rough_common_noise_the_compactification_approach).
