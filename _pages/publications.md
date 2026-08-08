@@ -12,20 +12,20 @@ author_profile: true
 Preprints
 ======
 
-## [Sharp Wasserstein Convergence Rates for Empirical Path Laws of It\^o Processes](.../.../assets/path_law_empirical.pdf)
+## [Sharp Wasserstein Convergence Rates for Empirical Path Laws of It\^o Processes](../assets/path_law_empirical.pdf)
 
 Xihao He and **Fengyi Yuan**, 2026. Submitted.
 
 
 ## [Mean-field games with rough common noise: the compactification approach](https://arxiv.org/abs/2602.22602)
 
-Erhan Bayraktar, Xihao He, Xiang Yu and **Fengyi Yuan**, 2026. arXiv: 2602.22602. [ResearchGate](https://www.researchgate.net/publication/401238560_Mean-field_games_with_rough_common_noise_the_compactification_approach).
+Erhan Bayraktar, Xihao He, Xiang Yu and **Fengyi Yuan**, 2026. arXiv: 2602.22602. [ResearchGate](https://www.researchgate.net/publication/401238560_Mean-field_games_with_rough_common_noise_the_com[...]
 
 ## [Dynamic data generation and dynamic portfolio selection: an application of a score-based diffusion model](https://arxiv.org/abs/2507.09916)
 
 (Presented in poster sessions of [GenAI in Finance Workshop of NeurIPS 2025](https://sites.google.com/view/neurips-25-gen-ai-in-finance/accepted-papers))
 
-Ahmad Aghapour, Erhan Bayraktar and **Fengyi Yuan**, 2025. arXiv: 2507.09916. [[code]](https://github.com/fy-yuan/diffusion_dynamic_mv). Refer to [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350795) for the latest updated version.
+Ahmad Aghapour, Erhan Bayraktar and **Fengyi Yuan**, 2025. arXiv: 2507.09916. [[code]](https://github.com/fy-yuan/diffusion_dynamic_mv). Refer to [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?a[...]
 
 ## [Unified continuous-time q-learning for mean-field game and mean-field control problems](https://arxiv.org/abs/2407.04521).
 
@@ -41,14 +41,14 @@ Zongxia Liang, Sheng Wang, Jianming Xia and **Fengyi Yuan**, 2024. arXiv: 2401.0
 Journal Publications 
 ======
 
-1. Bahman Angoshtari, Xiang Yu and **Fengyi Yuan**. [Optimal consumption under loss-averse multiplicative habit-formation preferences](https://arxiv.org/abs/2406.20063). ***SIAM Journal on Financial Mathematics***, Accepted. [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879543).
-1. Zongxia Liang, Jianming Xia and **Fengyi Yuan**. [Dynamic portfolio selection for nonlinear law-dependent preferences](https://pubsonline.informs.org/doi/10.1287/moor.2023.0345)   [[ArXiv]](https://arxiv.org/abs/2311.06745). ***Mathematics of Operations Research***, forthcoming.
-1. Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**. [Retirement decision with addictive habit persistence in a jump diffusion market](https://epubs.siam.org/doi/10.1137/23M1591116)   [[ArXiv]](https://arxiv.org/abs/2011.10166). ***SIAM Journal on Financial Mathematics***, 16(3): 2025, 912-958.
-1. Xiang Yu and **Fengyi Yuan**. [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://link.springer.com/article/10.1007/s00780-025-00581-5) [[ArXiv]](https://arxiv.org/abs/2311.00381). ***Finance and Stochastics***, forthcoming.
-1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Equilibria for time-inconsistent singular control problems](https://epubs.siam.org/doi/10.1137/23M1609701). ***SIAM Journal on Control and Optimization***, 12(6):2024, 3213-3238.
-1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Consumption-investment decisions with endogenous reference point and drawdown constraint](https://link.springer.com/article/10.1007/s11579-023-00335-x). ***Mathematics and Financial Economics***, 17: 2023, pages 285-334.
-1. Zongxia Liang and **Fengyi Yuan**. [Weak equilibria for time-inconsistent control: with applications to investment-withdrawal decisions](https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.12391). ***Mathematical Finance***, 33(3): 2023, pages 891-945.
-1.  Lin He, Zongxia Liang and **Fengyi Yuan**. [Optimal DB-PAYGO pension management towards a habitual contribution rate](https://www.sciencedirect.com/science/article/abs/pii/S0167668720301050). ***Insurance Mathematics and Economics***, 94(3): 2020, pages 125-141.
+1. Bahman Angoshtari, Xiang Yu and **Fengyi Yuan**. [Optimal consumption under loss-averse multiplicative habit-formation preferences](https://arxiv.org/abs/2406.20063). ***SIAM Journal on Financi[...]
+1. Zongxia Liang, Jianming Xia and **Fengyi Yuan**. [Dynamic portfolio selection for nonlinear law-dependent preferences](https://pubsonline.informs.org/doi/10.1287/moor.2023.0345)   [[ArXiv]](htt[...]
+1. Guohui Guan, Qitao Huang, Zongxia Liang, and **Fengyi Yuan**. [Retirement decision with addictive habit persistence in a jump diffusion market](https://epubs.siam.org/doi/10.1137/23M1591116)   [...]
+1. Xiang Yu and **Fengyi Yuan**. [Time-inconsistent mean-field stopping problems: A regularized equilibrium approach](https://link.springer.com/article/10.1007/s00780-025-00581-5) [[ArXiv]](https:[...]
+1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Equilibria for time-inconsistent singular control problems](https://epubs.siam.org/doi/10.1137/23M1609701). ***SIAM Journal on Control and Opti[...]
+1. Zongxia Liang, Xiaodong Luo and **Fengyi Yuan**. [Consumption-investment decisions with endogenous reference point and drawdown constraint](https://link.springer.com/article/10.1007/s11579-023-[...]
+1. Zongxia Liang and **Fengyi Yuan**. [Weak equilibria for time-inconsistent control: with applications to investment-withdrawal decisions](https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.123[...]
+1.  Lin He, Zongxia Liang and **Fengyi Yuan**. [Optimal DB-PAYGO pension management towards a habitual contribution rate](https://www.sciencedirect.com/science/article/abs/pii/S0167668720301050). [...]
 
 
 Academic Presentations(selected)
