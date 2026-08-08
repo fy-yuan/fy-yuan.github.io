@@ -12,7 +12,7 @@ author_profile: true
 Preprints
 ======
 
-## [Sharp Wasserstein Convergence Rates for Empirical Path Laws of It\^o Processes](.../assets/path_law_empirical.pdf)
+## [Sharp Wasserstein Convergence Rates for Empirical Path Laws of It\^o Processes](.../.../assets/path_law_empirical.pdf)
 
 Xihao He and **Fengyi Yuan**, 2026. Submitted.
 
