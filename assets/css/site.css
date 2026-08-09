@@ -37,6 +37,7 @@ a {
   color: var(--link);
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.14em;
+  text-decoration-skip-ink: none;
   overflow-wrap: anywhere;
 }
 
