@@ -10,21 +10,21 @@ last_modified_at: "2026-08-09"
 {% assign profile = site.data.profile %}
 <article class="home-page">
   <header class="profile-hero">
-    <div class="profile-photo-wrap">
-      <img class="profile-photo" src="{{ profile.portrait.src | relative_url | escape }}" srcset="{{ profile.portrait.srcset | escape }}" sizes="(max-width: 720px) 160px, (max-width: 916px) 220px, (max-width: 1133px) 24vw, 272px" width="{{ profile.portrait.width | escape }}" height="{{ profile.portrait.height | escape }}" alt="{{ profile.portrait.alt | escape }}">
-    </div>
-    <div class="profile-intro">
+    <div class="profile-identity">
       <h1>{{ profile.name | escape }}</h1>
       <p class="position">{{ profile.role | escape }}</p>
       <p class="affiliation"><a href="{{ profile.affiliation_url | escape }}">{{ profile.affiliation | escape }}</a></p>
       <nav class="profile-links" aria-label="Academic profiles and contact">
+        {% for link in profile.profiles %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
         <a href="mailto:{{ profile.email | escape }}">Email</a>
         <a href="{{ profile.cv_url | relative_url | escape }}">CV <span aria-hidden="true">(PDF)</span><span class="visually-hidden">, PDF document</span></a>
-        {% for link in profile.profiles %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
       </nav>
-      <div class="biography">
-        {% for paragraph in profile.bio %}{{ paragraph | markdownify }}{% endfor %}
-      </div>
+    </div>
+    <div class="profile-photo-wrap">
+      <img class="profile-photo" src="{{ profile.portrait.src | relative_url | escape }}" srcset="{{ profile.portrait.srcset | escape }}" sizes="(max-width: 720px) 160px, (max-width: 960px) 224px, 272px" width="{{ profile.portrait.width | escape }}" height="{{ profile.portrait.height | escape }}" alt="{{ profile.portrait.alt | escape }}">
+    </div>
+    <div class="biography">
+      {% for paragraph in profile.bio %}{{ paragraph | markdownify }}{% endfor %}
     </div>
   </header>
 

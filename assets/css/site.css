@@ -143,13 +143,26 @@ a:focus-visible {
 
 .profile-hero {
   display: grid;
-  grid-template-columns: clamp(13.75rem, 24vw, 17rem) minmax(0, 1fr);
-  gap: clamp(2.5rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 1fr) clamp(14rem, 24vw, 17rem);
+  grid-template-areas:
+    "identity photo"
+    "biography photo";
+  column-gap: clamp(2.75rem, 5vw, 4.5rem);
+  row-gap: clamp(2rem, 3.5vw, 2.75rem);
   align-items: start;
 }
 
+.profile-identity {
+  grid-area: identity;
+  min-width: 0;
+  padding-top: clamp(0.2rem, 1vw, 0.7rem);
+}
+
 .profile-photo-wrap {
+  grid-area: photo;
   width: 100%;
+  padding-left: clamp(1rem, 2vw, 1.5rem);
+  border-left: 1px solid var(--link);
 }
 
 .profile-photo {
@@ -175,6 +188,17 @@ h1 {
   letter-spacing: -0.025em;
 }
 
+.profile-identity h1 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--link);
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: clamp(3rem, 6.5vw, 4.5rem);
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+}
+
 h2 {
   margin-bottom: 1rem;
   padding-bottom: 0.45rem;
@@ -194,15 +218,17 @@ p {
 }
 
 .position {
-  margin-bottom: 0;
-  font-size: 1.08rem;
-  font-weight: 650;
+  margin-bottom: 0.2rem;
+  font-size: clamp(1.18rem, 2.2vw, 1.4rem);
+  font-weight: 600;
 }
 
 .affiliation {
-  margin-top: 0.15rem;
-  margin-bottom: 1rem;
+  max-width: 42rem;
+  margin-top: 0;
+  margin-bottom: 0.85rem;
   color: var(--muted);
+  line-height: 1.45;
 }
 
 .profile-links,
@@ -212,6 +238,10 @@ p {
   gap: 0.3rem 1rem;
   margin-bottom: 1.5rem;
   font-size: 0.94rem;
+}
+
+.profile-identity .profile-links {
+  margin-bottom: 0;
 }
 
 .profile-links a,
@@ -225,6 +255,7 @@ p {
 }
 
 .biography {
+  grid-area: biography;
   max-width: var(--reading-width);
 }
 
@@ -374,11 +405,25 @@ section {
 
   .profile-hero {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-areas:
+      "identity"
+      "photo"
+      "biography";
+    gap: 1.75rem;
+  }
+
+  .profile-identity {
+    padding-top: 0;
+  }
+
+  .profile-identity h1 {
+    font-size: clamp(2.85rem, 14vw, 3.7rem);
   }
 
   .profile-photo-wrap {
     width: 10rem;
+    padding-left: 0;
+    border-left: 0;
   }
 
   section {
