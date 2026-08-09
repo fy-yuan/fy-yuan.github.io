@@ -253,12 +253,12 @@ def main() -> int:
             errors.append(f"Research page has {research.section_item_counts['preprints']} preprints; expected 5")
         if research.section_item_counts["journal-publications"] != 8:
             errors.append(f"Research page has {research.section_item_counts['journal-publications']} journal publications; expected 8")
-        if research.list_item_counts["presentation-list"] != 11:
-            errors.append(f"Research page has {research.list_item_counts['presentation-list']} presentations; expected 11")
+        if research.list_item_counts["presentation-list"] != 12:
+            errors.append(f"Research page has {research.list_item_counts['presentation-list']} presentations; expected 12")
 
     teaching = pages.get((site_dir / "teaching/index.html").resolve())
-    if teaching and teaching.list_item_counts["course-list"] != 10:
-        errors.append(f"Teaching page has {teaching.list_item_counts['course-list']} courses; expected 10")
+    if teaching and teaching.list_item_counts["course-list"] != 12:
+        errors.append(f"Teaching page has {teaching.list_item_counts['course-list']} courses; expected 12")
 
     for source, page in pages.items():
         for kind, raw_url in page.links:

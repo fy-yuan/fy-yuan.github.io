@@ -37,10 +37,12 @@ exclude:
   - .bundle
   - .github
   - .gitignore
+  - CV
   - CONTRIBUTING.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - output
   - README.md
   - scripts
   - vendor

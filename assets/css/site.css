@@ -161,8 +161,10 @@ a:focus-visible {
 .profile-photo-wrap {
   grid-area: photo;
   width: 100%;
+  max-width: 17rem;
+  justify-self: end;
   padding-left: clamp(1rem, 2vw, 1.5rem);
-  border-left: 1px solid var(--link);
+  border-left: 2px solid var(--link);
 }
 
 .profile-photo {
@@ -422,6 +424,7 @@ section {
 
   .profile-photo-wrap {
     width: 10rem;
+    justify-self: start;
     padding-left: 0;
     border-left: 0;
   }
