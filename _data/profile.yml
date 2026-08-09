@@ -1,7 +1,7 @@
 name: "Fengyi Yuan"
 role: "Assistant Professor"
 affiliation: "School of Science and Engineering (SSE), The Chinese University of Hong Kong, Shenzhen"
-affiliation_url: "https://sse.cuhk.edu.cn/en"
+#affiliation_url: "https://sse.cuhk.edu.cn/en"
 portrait:
   src: "/images/fengyi-yuan-portrait-640.jpg"
   srcset: "/images/fengyi-yuan-portrait-320.jpg 320w, /images/fengyi-yuan-portrait-640.jpg 640w"
