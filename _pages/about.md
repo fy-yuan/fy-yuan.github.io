@@ -13,7 +13,7 @@ last_modified_at: "2026-08-09"
     <div class="profile-identity">
       <h1>{{ profile.name | escape }}</h1>
       <p class="position">{{ profile.role | escape }}</p>
-      <p class="affiliation"><a href="{{ profile.affiliation_url | escape }}">{{ profile.affiliation | escape }}</a></p>
+      <p class="affiliation">{{ profile.affiliation | escape }}</p>
       <nav class="profile-links" aria-label="Academic profiles and contact">
         {% for link in profile.profiles %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
         <a href="mailto:{{ profile.email | escape }}">Email</a>

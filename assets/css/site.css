@@ -229,7 +229,8 @@ p {
   max-width: 42rem;
   margin-top: 0;
   margin-bottom: 0.85rem;
-  color: var(--muted);
+  color: var(--text);
+  font-weight: 600;
   line-height: 1.45;
 }
 
