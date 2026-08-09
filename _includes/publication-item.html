@@ -1,0 +1,25 @@
+{% assign item = include.item %}
+{% assign primary_resource = item.resources | first %}
+<li class="publication-item">
+  <h3 class="publication-title">
+    {% if primary_resource %}<a href="{% if primary_resource.url contains '://' %}{{ primary_resource.url | escape }}{% else %}{{ primary_resource.url | relative_url | escape }}{% endif %}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}
+  </h3>
+  <p class="publication-authors">
+    {% for author in item.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{% if author == site.data.profile.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% endfor %}.
+  </p>
+  <p class="publication-meta">
+    {% if item.section == "preprint" %}
+      {{ item.year }}.{% if item.details %} {{ item.details | escape }}.{% elsif item.status %} {{ item.status | escape }}.{% endif %}
+    {% else %}
+      <em>{{ item.venue | escape }}</em>{% if item.details %}, {{ item.details | escape }}.{% elsif item.status %}, {{ item.status | escape }}.{% elsif item.year %}, {{ item.year }}.{% endif %}
+    {% endif %}
+    {% if item.resources %}
+      <span class="resource-links" aria-label="Resources for {{ item.title | escape }}">
+        {% for resource in item.resources %}<a href="{% if resource.url contains '://' %}{{ resource.url | escape }}{% else %}{{ resource.url | relative_url | escape }}{% endif %}" aria-label="{{ resource.label | escape }} for {{ item.title | escape }}">[{{ resource.label | escape }}]</a>{% unless forloop.last %} {% endunless %}{% endfor %}
+      </span>
+    {% endif %}
+  </p>
+  {% if item.note %}
+    <p class="publication-note">{{ item.note | escape }} <a href="{{ item.note_link_url | escape }}">{{ item.note_link_label | escape }}</a>.{% if item.additional_note %} {{ item.additional_note | escape }}{% endif %}</p>
+  {% endif %}
+</li>

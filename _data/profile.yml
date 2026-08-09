@@ -1,0 +1,45 @@
+name: "Fengyi Yuan"
+role: "Assistant Professor"
+affiliation: "School of Science and Engineering (SSE), The Chinese University of Hong Kong, Shenzhen"
+affiliation_url: "https://sse.cuhk.edu.cn/en"
+portrait:
+  src: "/images/fengyi-yuan-portrait-640.jpg"
+  srcset: "/images/fengyi-yuan-portrait-320.jpg 320w, /images/fengyi-yuan-portrait-640.jpg 640w"
+  alt: "Fengyi Yuan"
+  width: 640
+  height: 800
+cv_url: "/assets/CV.pdf"
+email: "yuanfengyi@cuhk.edu.cn"
+bio:
+  - >-
+    I am an Assistant Professor at the [School of Science and Engineering (SSE)
+    of The Chinese University of Hong Kong, Shenzhen](https://sse.cuhk.edu.cn/en).
+  - >-
+    Previously, I was a Byrne Research Assistant Professor at the [University of
+    Michigan, Ann Arbor](https://lsa.umich.edu/math/people/postdoc-faculty/fengyi-yuan.html)
+    from 2024 to 2025, working in the group led by [Prof. Erhan
+    Bayraktar](https://sites.lsa.umich.edu/erhan/).
+  - >-
+    I obtained my Ph.D. in math from [Tsinghua University](https://math.tsinghua.edu.cn)
+    in June 2024, supervised by [Prof. Zongxia
+    Liang](https://math.tsinghua.edu.cn/info/1125/1623.htm).
+  - >-
+    Feel free to contact me directly if you have any questions about my research
+    or teaching. Collaborations on related topics are warmly welcomed!
+research_interests:
+  - "Mean field games and mean field control problems with rough common noise"
+  - "Applications of generative models"
+  - "Stochastic control and its applications in financial mathematics"
+  - "Time-inconsistency in dynamic decision problems"
+profiles:
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?hl=en&user=7W-Ska0AAAAJ&view_op=list_works&gmla=AETOMgH1Qb0jFYjJbo9YfzlzhoN-AzptwnTvoMaayYUoiT8lT248aBnSEatEmZMHO8va75v87P4oxR8nONL8NXZR"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Fengyi-Yuan"
+contact:
+  address: >-
+    Zhi Ren 403, The Chinese University of Hong Kong, Shenzhen,
+    Shenzhen, Guangdong Province, China.
+  phones:
+    - "(0755) 2351-9526"
+    - "(+86) 130-5123-0311"

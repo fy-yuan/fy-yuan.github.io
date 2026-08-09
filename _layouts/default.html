@@ -1,31 +1,80 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="en">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% assign page_description = page.description | default: site.description %}
+    {% if page.url == "/" %}
+      {% assign page_title = site.title %}
+    {% else %}
+      {% capture page_title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+    {% endif %}
+    <title>{{ page_title | strip }}</title>
+    <meta name="description" content="{{ page_description | strip_newlines | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+    <meta property="og:type" content="{% if page.url == '/' %}profile{% else %}website{% endif %}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ page_title | strip | escape }}">
+    <meta property="og:description" content="{{ page_description | strip_newlines | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    {% if site.og_image %}<meta property="og:image" content="{{ site.og_image | absolute_url }}">{% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title | strip | escape }}">
+    <meta name="twitter:description" content="{{ page_description | strip_newlines | escape }}">
+    {% if site.og_image %}<meta name="twitter:image" content="{{ site.og_image | absolute_url }}">{% endif %}
+
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "url": {{ site.url | jsonify }},
+        "dateModified": {{ page.last_modified_at | jsonify }},
+        "mainEntity": {
+          "@type": "Person",
+          "name": {{ site.data.profile.name | jsonify }},
+          "url": {{ site.url | jsonify }},
+          "image": {{ site.data.profile.portrait.src | absolute_url | jsonify }},
+          "jobTitle": {{ site.data.profile.role | jsonify }},
+          "email": {{ site.data.profile.email | prepend: "mailto:" | jsonify }},
+          "worksFor": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.data.profile.affiliation | jsonify }},
+            "url": {{ site.data.profile.affiliation_url | jsonify }}
+          },
+          "sameAs": [
+            {% for profile in site.data.profile.profiles %}{{ profile.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+          ]
+        }
+      }
+    </script>
+    {% endif %}
   </head>
-
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">Fengyi Yuan</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Research</a>
+          <a href="{{ '/teaching/' | relative_url }}"{% if page.url == '/teaching/' %} aria-current="page"{% endif %}>Teaching</a>
+          <a href="{{ site.data.profile.cv_url | relative_url }}">CV <span aria-hidden="true">(PDF)</span><span class="visually-hidden">, PDF document</span></a>
+        </nav>
+      </div>
+    </header>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <main id="main-content" class="site-main shell">
+      {{ content }}
+    </main>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>&copy; {{ site.time | date: '%Y' }} Fengyi Yuan</span>
+        <a href="mailto:{{ site.data.profile.email | escape }}">{{ site.data.profile.email | escape }}</a>
+      </div>
+    </footer>
   </body>
 </html>

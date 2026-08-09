@@ -1,0 +1,38 @@
+{
+  "assets/BFS-Fengyi.pdf": {
+    "sha256": "cd1cd98763d7974e6d699a28a3eec15faea6bf51ac4c366828076f3c8c0adfd8",
+    "size": 487960
+  },
+  "assets/BIMSA.pdf": {
+    "sha256": "b8b5711d5124131bfa25f2f4e597b5a1ddb57561630012e9b2414ffde8974652",
+    "size": 2558395
+  },
+  "assets/CV.pdf": {
+    "sha256": "05ea24d32523939b2b6266b0e8f96a42435bbae3a7174285506b4ec175a652c3",
+    "size": 95263
+  },
+  "assets/Fengyi-SIFIN2025.pdf": {
+    "sha256": "1746b7b5ca083ae74de1f81a65a9e3272fe3c7ac34650000a68de6e4d8c095b9",
+    "size": 1510826
+  },
+  "assets/Nonlinear_slides.pdf": {
+    "sha256": "471e40441dabeb4195845d321929430830a2ea9069f972eb334203576afefadc",
+    "size": 282877
+  },
+  "assets/TIS_slides.pdf": {
+    "sha256": "ccfc0ff49e20c91cb806251eaef8693e4b3e8b08c3f599edda6f818351ba9d9f",
+    "size": 215477
+  },
+  "assets/diffusion_mv_theory_slides.pdf": {
+    "sha256": "3c3b3a55910d6fc205f8d678f3922ee5a1e9e95e7687fb8762aa959461cd569e",
+    "size": 425348
+  },
+  "assets/path_law_empirical.pdf": {
+    "sha256": "a2383d491237d90e6bc12e0692bc9ef7df0ec3ec6db52b4fb77f2eacc5b266c6",
+    "size": 595510
+  },
+  "assets/rough_path_slides.pdf": {
+    "sha256": "ddf8302eb6ad9f689e91c7b2a4b58ba8b0f3ee8959859f341af6b46b10c3ccb7",
+    "size": 487866
+  }
+}

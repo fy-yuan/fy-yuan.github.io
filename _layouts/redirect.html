@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    {% assign destination = page.redirect_target %}
+    {% unless destination contains '://' %}{% assign destination = destination | relative_url %}{% endunless %}
+    <title>Redirecting | {{ site.title }}</title>
+    <link rel="canonical" href="{{ destination | absolute_url | escape }}">
+    <meta http-equiv="refresh" content="0; url={{ destination | escape }}">
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ destination | escape }}">{{ destination | escape }}</a>.</p>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+---
+permalink: /teaching/
+title: "Teaching"
+description: "Courses taught by Fengyi Yuan at The Chinese University of Hong Kong, Shenzhen, the University of Michigan, and Tsinghua University."
+---
+<article class="content-page">
+  <header class="page-heading"><h1>Teaching</h1></header>
+
+  <section aria-labelledby="instructor-heading">
+    <h2 id="instructor-heading">As an instructor</h2>
+    {% assign instructor_courses = site.data.teaching | where: "role", "instructor" %}
+    {% assign instructor_groups = instructor_courses | group_by: "institution" %}
+    {% for group in instructor_groups %}
+      <h3>{{ group.name | escape }}</h3>
+      <ul class="course-list compact-list">
+        {% for course in group.items %}<li>{% if course.course_code %}<strong>{{ course.course_code | escape }}</strong>, {% endif %}{{ course.title | escape }}, {{ course.term | escape }}.</li>{% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
+
+  <section aria-labelledby="ta-heading">
+    <h2 id="ta-heading">As a teaching assistant</h2>
+    {% assign ta_courses = site.data.teaching | where: "role", "teaching assistant" %}
+    {% assign ta_groups = ta_courses | group_by: "institution" %}
+    {% for group in ta_groups %}
+      <h3>{{ group.name | escape }}</h3>
+      <ul class="course-list compact-list">
+        {% for course in group.items %}<li>{% if course.course_code %}<strong>{{ course.course_code | escape }}</strong>, {% endif %}{{ course.title | escape }}, {{ course.term | escape }}.</li>{% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
+</article>

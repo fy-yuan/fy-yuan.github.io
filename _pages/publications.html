@@ -1,0 +1,45 @@
+---
+permalink: /publications/
+title: "Research"
+description: "Preprints, journal publications, and selected academic presentations by Fengyi Yuan."
+---
+<article class="content-page">
+  <header class="page-heading">
+    <h1>Research</h1>
+    <nav class="section-nav" aria-label="Research sections">
+      <a href="#preprints">Preprints</a>
+      <a href="#journal-publications">Journal publications</a>
+      <a href="#presentations">Selected presentations</a>
+    </nav>
+    <p class="author-note">All authors contribute equally and are sorted in alphabetical order.</p>
+  </header>
+
+  <section aria-labelledby="preprints">
+    <h2 id="preprints">Preprints</h2>
+    {% assign preprints = site.data.publications | where: "section", "preprint" %}
+    <ol class="publication-list">
+      {% for publication in preprints %}{% include publication-item.html item=publication %}{% endfor %}
+    </ol>
+  </section>
+
+  <section aria-labelledby="journal-publications">
+    <h2 id="journal-publications">Journal publications</h2>
+    {% assign journals = site.data.publications | where: "section", "journal" %}
+    <ol class="publication-list">
+      {% for publication in journals %}{% include publication-item.html item=publication %}{% endfor %}
+    </ol>
+  </section>
+
+  <section aria-labelledby="presentations">
+    <h2 id="presentations">Selected academic presentations</h2>
+    <ol class="presentation-list">
+      {% for presentation in site.data.presentations %}
+        <li>
+          <strong>{{ presentation.event | escape }}</strong>, {{ presentation.location | escape }},
+          <time datetime="{{ presentation.date | escape }}">{{ presentation.date_label | escape }}</time>.{% if presentation.slides %}
+          <a class="resource-link" href="{{ presentation.slides | relative_url | escape }}" aria-label="Slides for {{ presentation.event | escape }}">[slides]</a>{% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+</article>
