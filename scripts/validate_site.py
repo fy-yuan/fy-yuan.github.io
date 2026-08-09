@@ -51,9 +51,13 @@ class PageParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.h1_count = 0
         self.ids: set[str] = set()
+        self.id_counts: Counter[str] = Counter()
         self.links: list[tuple[str, str]] = []
-        self.images: list[tuple[str, str | None]] = []
+        self.images: list[dict[str, str | None]] = []
         self.scripts: list[str] = []
+        self.html_lang: str | None = None
+        self.main_count = 0
+        self.main_ids: set[str] = set()
         self.description: str | None = None
         self.canonical: str | None = None
         self.og_image: str | None = None
@@ -72,6 +76,13 @@ class PageParser(HTMLParser):
         element_id = attrs.get("id")
         if element_id:
             self.ids.add(element_id)
+            self.id_counts[element_id] += 1
+        if tag == "html":
+            self.html_lang = attrs.get("lang")
+        if tag == "main":
+            self.main_count += 1
+            if element_id:
+                self.main_ids.add(element_id)
         if tag == "h1":
             self.h1_count += 1
         if tag == "section":
@@ -93,7 +104,16 @@ class PageParser(HTMLParser):
                 self.canonical = attrs.get("href")
         if tag == "img":
             src = attrs.get("src") or ""
-            self.images.append((src, attrs.get("alt")))
+            self.images.append(
+                {
+                    "src": src,
+                    "alt": attrs.get("alt"),
+                    "width": attrs.get("width"),
+                    "height": attrs.get("height"),
+                    "srcset": attrs.get("srcset"),
+                    "sizes": attrs.get("sizes"),
+                }
+            )
             if src:
                 self.links.append(("src", src))
             for candidate in (attrs.get("srcset") or "").split(","):
@@ -180,6 +200,19 @@ def main() -> int:
 
     html_paths = sorted(site_dir.rglob("*.html"))
     pages = {path.resolve(): parse_page(path) for path in html_paths}
+    for path, page in pages.items():
+        relative = path.relative_to(site_dir)
+        duplicates = sorted(element_id for element_id, count in page.id_counts.items() if count > 1)
+        if duplicates:
+            errors.append(f"{relative} has duplicate IDs: {duplicates}")
+        if page.scripts:
+            errors.append(f"{relative} loads runtime scripts: {page.scripts}")
+        for image in page.images:
+            if image["alt"] is None:
+                errors.append(f"{relative} image lacks alt text: {image['src']}")
+            if not image["width"] or not image["height"]:
+                errors.append(f"{relative} image lacks intrinsic dimensions: {image['src']}")
+
     for relative in CORE_PAGES:
         path = (site_dir / relative).resolve()
         page = pages.get(path)
@@ -191,11 +224,10 @@ def main() -> int:
             errors.append(f"{relative} lacks a meta description")
         if not page.canonical:
             errors.append(f"{relative} lacks a canonical URL")
-        if page.scripts:
-            errors.append(f"{relative} loads runtime scripts: {page.scripts}")
-        for src, alt in page.images:
-            if alt is None:
-                errors.append(f"{relative} image lacks alt text: {src}")
+        if page.html_lang != "en":
+            errors.append(f"{relative} has unexpected HTML language: {page.html_lang!r}")
+        if page.main_count != 1 or "main-content" not in page.main_ids:
+            errors.append(f"{relative} lacks one identifiable main landmark")
 
     home = pages.get((site_dir / "index.html").resolve())
     if home:
@@ -212,6 +244,8 @@ def main() -> int:
             errors.append(f"Homepage has {home.list_item_counts['honors-list']} honors; expected 6")
         if not home.og_image:
             errors.append("Homepage lacks og:image")
+        if not any(image["srcset"] and image["sizes"] for image in home.images):
+            errors.append("Homepage lacks a responsive image source declaration")
 
     research = pages.get((site_dir / "publications/index.html").resolve())
     if research:

@@ -23,10 +23,23 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.4"
+          bundler-cache: true
       - name: Configure Pages
+        id: pages
         uses: actions/configure-pages@v5
+      - name: Verify pinned toolchain
+        run: |
+          ruby -e 'abort "Expected Ruby 3.3.4, found #{RUBY_VERSION}" unless RUBY_VERSION == "3.3.4"'
+          bundle exec ruby -e 'abort "Expected github-pages 232" unless Gem.loaded_specs.fetch("github-pages").version.to_s == "232"'
+          bundle exec ruby -e 'abort "Expected Jekyll 3.10.0" unless Gem.loaded_specs.fetch("jekyll").version.to_s == "3.10.0"'
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
       - name: Validate generated site
         run: python3 scripts/validate_site.py _site
       - name: Upload Pages artifact

@@ -11,7 +11,7 @@ last_modified_at: "2026-08-09"
 <article class="home-page">
   <header class="profile-hero">
     <div class="profile-photo-wrap">
-      <img class="profile-photo" src="{{ profile.portrait.src | relative_url | escape }}" srcset="{{ profile.portrait.srcset | escape }}" sizes="(max-width: 720px) 160px, 220px" width="{{ profile.portrait.width }}" height="{{ profile.portrait.height }}" alt="{{ profile.portrait.alt | escape }}">
+      <img class="profile-photo" src="{{ profile.portrait.src | relative_url | escape }}" srcset="{{ profile.portrait.srcset | escape }}" sizes="(max-width: 720px) 160px, (max-width: 916px) 220px, (max-width: 1133px) 24vw, 272px" width="{{ profile.portrait.width | escape }}" height="{{ profile.portrait.height | escape }}" alt="{{ profile.portrait.alt | escape }}">
     </div>
     <div class="profile-intro">
       <h1>{{ profile.name | escape }}</h1>

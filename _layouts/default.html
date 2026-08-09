@@ -9,9 +9,9 @@
     {% else %}
       {% capture page_title %}{{ page.title }} | {{ site.title }}{% endcapture %}
     {% endif %}
-    <title>{{ page_title | strip }}</title>
+    <title>{{ page_title | strip | escape }}</title>
     <meta name="description" content="{{ page_description | strip_newlines | escape }}">
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url | escape }}">
     <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 
@@ -19,12 +19,12 @@
     <meta property="og:site_name" content="{{ site.title | escape }}">
     <meta property="og:title" content="{{ page_title | strip | escape }}">
     <meta property="og:description" content="{{ page_description | strip_newlines | escape }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    {% if site.og_image %}<meta property="og:image" content="{{ site.og_image | absolute_url }}">{% endif %}
+    <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+    {% if site.og_image %}<meta property="og:image" content="{{ site.og_image | absolute_url | escape }}">{% endif %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page_title | strip | escape }}">
     <meta name="twitter:description" content="{{ page_description | strip_newlines | escape }}">
-    {% if site.og_image %}<meta name="twitter:image" content="{{ site.og_image | absolute_url }}">{% endif %}
+    {% if site.og_image %}<meta name="twitter:image" content="{{ site.og_image | absolute_url | escape }}">{% endif %}
 
     {% if page.url == "/" %}
     <script type="application/ld+json">

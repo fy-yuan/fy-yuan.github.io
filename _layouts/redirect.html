@@ -6,7 +6,7 @@
     <meta name="robots" content="noindex">
     {% assign destination = page.redirect_target %}
     {% unless destination contains '://' %}{% assign destination = destination | relative_url %}{% endunless %}
-    <title>Redirecting | {{ site.title }}</title>
+    <title>Redirecting | {{ site.title | escape }}</title>
     <link rel="canonical" href="{{ destination | absolute_url | escape }}">
     <meta http-equiv="refresh" content="0; url={{ destination | escape }}">
   </head>

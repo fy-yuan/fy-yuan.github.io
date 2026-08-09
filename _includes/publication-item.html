@@ -9,9 +9,9 @@
   </p>
   <p class="publication-meta">
     {% if item.section == "preprint" %}
-      {{ item.year }}.{% if item.details %} {{ item.details | escape }}.{% elsif item.status %} {{ item.status | escape }}.{% endif %}
+      {{ item.year | escape }}.{% if item.details %} {{ item.details | escape }}.{% elsif item.status %} {{ item.status | escape }}.{% endif %}
     {% else %}
-      <em>{{ item.venue | escape }}</em>{% if item.details %}, {{ item.details | escape }}.{% elsif item.status %}, {{ item.status | escape }}.{% elsif item.year %}, {{ item.year }}.{% endif %}
+      <em>{{ item.venue | escape }}</em>{% if item.details %}, {{ item.details | escape }}.{% elsif item.status %}, {{ item.status | escape }}.{% elsif item.year %}, {{ item.year | escape }}.{% endif %}
     {% endif %}
     {% if item.resources %}
       <span class="resource-links" aria-label="Resources for {{ item.title | escape }}">

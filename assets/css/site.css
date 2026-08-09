@@ -6,9 +6,9 @@
   --link: #245b78;
   --link-hover: #173f55;
   --border: #d7dde2;
-  --soft-background: #f6f8f9;
   --focus: #9d4e00;
   --content-width: 68rem;
+  --page-width: 60rem;
   --reading-width: 72ch;
 }
 
@@ -131,20 +131,24 @@ a:focus-visible {
   padding-block: clamp(2.25rem, 5vw, 4rem) 4.5rem;
 }
 
-.home-page,
+.home-page {
+  width: 100%;
+}
+
 .content-page {
-  max-width: var(--reading-width);
+  width: min(100%, var(--page-width));
+  margin-inline: auto;
 }
 
 .profile-hero {
   display: grid;
-  grid-template-columns: 13.75rem minmax(0, 1fr);
-  gap: 2.5rem;
+  grid-template-columns: clamp(13.75rem, 24vw, 17rem) minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 4rem);
   align-items: start;
 }
 
 .profile-photo-wrap {
-  width: 13.75rem;
+  width: 100%;
 }
 
 .profile-photo {
@@ -217,6 +221,10 @@ p {
 
 .biography p:last-child {
   margin-bottom: 0;
+}
+
+.biography {
+  max-width: var(--reading-width);
 }
 
 section {

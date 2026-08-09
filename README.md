@@ -22,7 +22,8 @@ The homepage automatically displays the first three preprints from
 
 ## Local preview
 
-The production environment is pinned to Ruby 3.3.4 and `github-pages` 232.
+The production environment is pinned to Ruby 3.3.4, `github-pages` 232, and
+Jekyll 3.10.0. Bundler installs the exact dependency set in `Gemfile.lock`.
 
 ```sh
 bundle install
@@ -33,7 +34,7 @@ Then open <http://127.0.0.1:4000>. To run the same repository checks used in
 CI after a build:
 
 ```sh
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build --trace
 python3 scripts/validate_site.py _site
 ```
 
