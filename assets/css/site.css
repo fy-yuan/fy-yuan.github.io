@@ -195,7 +195,7 @@ h1 {
   padding-bottom: 0.75rem;
   border-bottom: 2px solid var(--link);
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: clamp(3rem, 6.5vw, 4.5rem);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: -0.035em;
@@ -419,7 +419,7 @@ section {
   }
 
   .profile-identity h1 {
-    font-size: clamp(2.85rem, 14vw, 3.7rem);
+    font-size: clamp(2.4rem, 11vw, 3rem);
   }
 
   .profile-photo-wrap {
