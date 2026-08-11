@@ -2,8 +2,10 @@
   title: "Sharp Wasserstein Convergence Rates for Empirical Path Laws of Itô Processes"
   authors: ["Xihao He", "Fengyi Yuan"]
   year: 2026
-  status: "Submitted"
+  details: "arXiv: 2608.07879"
   resources:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2608.07879"
     - label: "paper"
       url: "/assets/path_law_empirical.pdf"
 
