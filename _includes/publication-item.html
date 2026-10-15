@@ -20,6 +20,6 @@
     {% endif %}
   </p>
   {% if item.note %}
-    <p class="publication-note">{{ item.note | escape }} <a href="{{ item.note_link_url | escape }}">{{ item.note_link_label | escape }}</a>.{% if item.additional_note %} {{ item.additional_note | escape }}{% endif %}</p>
+    <p class="publication-note">{{ item.note | escape }} <a href="{{ item.note_link_url | escape }}">{{ item.note_link_label | escape }}</a>.</p>
   {% endif %}
 </li>

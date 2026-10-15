@@ -1,4 +1,13 @@
 - section: "preprint"
+  title: "Data-driven dynamic portfolio selection with vine copula simulation and reinforcement learning"
+  authors: ["Gabriël M.J. Gelissen", "Fengyi Yuan"]
+  year: 2026
+  details: "arXiv: 2610.20037"
+  resources:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2610.20037"
+
+- section: "preprint"
   title: "Sharp functional quantization and empirical Wasserstein rates for Itô processes"
   authors: ["Xihao He", "Fengyi Yuan"]
   year: 2026
@@ -26,7 +35,6 @@
   note: "Presented in the poster sessions of"
   note_link_label: "GenAI in Finance Workshop of NeurIPS 2025"
   note_link_url: "https://sites.google.com/view/neurips-25-gen-ai-in-finance/accepted-papers"
-  additional_note: "Refer to SSRN for the latest updated version."
   resources:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2507.09916"
@@ -54,11 +62,14 @@
       url: "https://arxiv.org/abs/2401.08323"
 
 - section: "journal"
-  title: "Optimal consumption under loss-averse multiplicative habit-formation preferences"
+  title: "Optimal consumption under loss-averse multiplicative habit formation preferences"
   authors: ["Bahman Angoshtari", "Xiang Yu", "Fengyi Yuan"]
   venue: "SIAM Journal on Financial Mathematics"
-  status: "Accepted"
+  year: 2026
+  details: "17(3): 2026, 1175–1219"
   resources:
+    - label: "publisher"
+      url: "https://epubs.siam.org/doi/10.1137/25M1745398"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2406.20063"
     - label: "SSRN"
@@ -68,12 +79,25 @@
   title: "Dynamic portfolio selection for nonlinear law-dependent preferences"
   authors: ["Zongxia Liang", "Jianming Xia", "Fengyi Yuan"]
   venue: "Mathematics of Operations Research"
-  status: "forthcoming"
+  year: 2026
+  details: "51(3): 2026, 1915–1940"
   resources:
     - label: "publisher"
       url: "https://pubsonline.informs.org/doi/10.1287/moor.2023.0345"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2311.06745"
+
+- section: "journal"
+  title: "Time-inconsistent mean-field stopping problems: a regularised equilibrium approach"
+  authors: ["Xiang Yu", "Fengyi Yuan"]
+  venue: "Finance and Stochastics"
+  year: 2026
+  details: "30(1): 2026, 179–236"
+  resources:
+    - label: "publisher"
+      url: "https://link.springer.com/article/10.1007/s00780-025-00581-5"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2311.00381"
 
 - section: "journal"
   title: "Retirement decision with addictive habit persistence in a jump diffusion market"
@@ -88,22 +112,11 @@
       url: "https://arxiv.org/abs/2011.10166"
 
 - section: "journal"
-  title: "Time-inconsistent mean-field stopping problems: A regularized equilibrium approach"
-  authors: ["Xiang Yu", "Fengyi Yuan"]
-  venue: "Finance and Stochastics"
-  status: "forthcoming"
-  resources:
-    - label: "publisher"
-      url: "https://link.springer.com/article/10.1007/s00780-025-00581-5"
-    - label: "arXiv"
-      url: "https://arxiv.org/abs/2311.00381"
-
-- section: "journal"
   title: "Equilibria for time-inconsistent singular control problems"
   authors: ["Zongxia Liang", "Xiaodong Luo", "Fengyi Yuan"]
   venue: "SIAM Journal on Control and Optimization"
   year: 2024
-  details: "12(6): 2024, 3213–3238"
+  details: "62(6): 2024, 3213–3238"
   resources:
     - label: "publisher"
       url: "https://epubs.siam.org/doi/10.1137/23M1609701"
@@ -113,7 +126,7 @@
   authors: ["Zongxia Liang", "Xiaodong Luo", "Fengyi Yuan"]
   venue: "Mathematics and Financial Economics"
   year: 2023
-  details: "17: 2023, pages 285–334"
+  details: "17(2): 2023, pages 285–334"
   resources:
     - label: "publisher"
       url: "https://link.springer.com/article/10.1007/s11579-023-00335-x"
@@ -131,9 +144,9 @@
 - section: "journal"
   title: "Optimal DB-PAYGO pension management towards a habitual contribution rate"
   authors: ["Lin He", "Zongxia Liang", "Fengyi Yuan"]
-  venue: "Insurance Mathematics and Economics"
+  venue: "Insurance: Mathematics and Economics"
   year: 2020
-  details: "94(3): 2020, pages 125–141"
+  details: "94: 2020, pages 125–141"
   resources:
     - label: "publisher"
       url: "https://www.sciencedirect.com/science/article/abs/pii/S0167668720301050"

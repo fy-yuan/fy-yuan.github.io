@@ -249,8 +249,8 @@ def main() -> int:
 
     research = pages.get((site_dir / "publications/index.html").resolve())
     if research:
-        if research.section_item_counts["preprints"] != 5:
-            errors.append(f"Research page has {research.section_item_counts['preprints']} preprints; expected 5")
+        if research.section_item_counts["preprints"] != 6:
+            errors.append(f"Research page has {research.section_item_counts['preprints']} preprints; expected 6")
         if research.section_item_counts["journal-publications"] != 8:
             errors.append(f"Research page has {research.section_item_counts['journal-publications']} journal publications; expected 8")
         if research.list_item_counts["presentation-list"] != 12:
