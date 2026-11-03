@@ -1,4 +1,13 @@
 - section: "preprint"
+  title: "Optimal portfolio and consumption under no-shorting constraints: The exploratory formulation and reinforcement learning"
+  authors: ["Xun Li", "Xiang Yu", "Fengyi Yuan", "Yijie Zeng"]
+  year: 2026
+  details: "arXiv: 2611.00700"
+  resources:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2611.00700"
+
+- section: "preprint"
   title: "Data-driven dynamic portfolio selection with vine copula simulation and reinforcement learning"
   authors: ["Gabriël M.J. Gelissen", "Fengyi Yuan"]
   year: 2026
