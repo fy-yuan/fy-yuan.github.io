@@ -231,6 +231,8 @@ def main() -> int:
 
     home = pages.get((site_dir / "index.html").resolve())
     if home:
+        if home.section_item_counts["recent-work"] != 3:
+            errors.append(f"Homepage has {home.section_item_counts['recent-work']} recent works; expected 3")
         if not home.json_ld:
             errors.append("Homepage lacks JSON-LD")
         else:

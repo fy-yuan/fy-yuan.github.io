@@ -1,6 +1,7 @@
 - section: "preprint"
   title: "Optimal portfolio and consumption under no-shorting constraints: The exploratory formulation and reinforcement learning"
   authors: ["Xun Li", "Xiang Yu", "Fengyi Yuan", "Yijie Zeng"]
+  recent_date: "2026-10-31"
   year: 2026
   details: "arXiv: 2611.00700"
   resources:
@@ -10,6 +11,7 @@
 - section: "preprint"
   title: "Data-driven dynamic portfolio selection with vine copula simulation and reinforcement learning"
   authors: ["Gabriël M.J. Gelissen", "Fengyi Yuan"]
+  recent_date: "2026-10-14"
   year: 2026
   details: "arXiv: 2610.20037"
   resources:
@@ -19,6 +21,7 @@
 - section: "preprint"
   title: "Sharp functional quantization and empirical Wasserstein rates for Itô processes"
   authors: ["Xihao He", "Fengyi Yuan"]
+  recent_date: "2026-08-08"
   year: 2026
   details: "arXiv: 2608.07879"
   resources:
@@ -28,6 +31,7 @@
 - section: "preprint"
   title: "Mean-field games with rough common noise: the compactification approach"
   authors: ["Erhan Bayraktar", "Xihao He", "Xiang Yu", "Fengyi Yuan"]
+  recent_date: "2026-02-26"
   year: 2026
   details: "arXiv: 2602.22602"
   resources:
@@ -39,6 +43,7 @@
 - section: "preprint"
   title: "Dynamic data generation and dynamic portfolio selection: an application of a score-based diffusion model"
   authors: ["Ahmad Aghapour", "Erhan Bayraktar", "Fengyi Yuan"]
+  recent_date: "2025-07-14"
   year: 2025
   details: "arXiv: 2507.09916"
   note: "Presented in the poster sessions of"
@@ -55,6 +60,7 @@
 - section: "preprint"
   title: "Unified continuous-time q-learning for mean-field game and mean-field control problems"
   authors: ["Xiaoli Wei", "Xiang Yu", "Fengyi Yuan"]
+  recent_date: "2024-07-05"
   year: 2024
   details: "arXiv: 2407.04521"
   resources:
@@ -64,6 +70,7 @@
 - section: "journal"
   title: "Dynamic portfolio selection under generalized disappointment aversion"
   authors: ["Zongxia Liang", "Sheng Wang", "Jianming Xia", "Fengyi Yuan"]
+  recent_date: "2026-11-14"
   venue: "Mathematics of Operations Research"
   year: 2026
   status: "Accepted"

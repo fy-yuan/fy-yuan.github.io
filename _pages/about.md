@@ -5,7 +5,7 @@ description: >-
   Fengyi Yuan is an Assistant Professor at The Chinese University of Hong Kong,
   Shenzhen, with research interests in mean field games, generative models,
   stochastic control, financial mathematics, and time-inconsistent decision problems.
-last_modified_at: "2026-11-03"
+last_modified_at: "2026-11-14"
 ---
 {% assign profile = site.data.profile %}
 <article class="home-page">
@@ -40,9 +40,9 @@ last_modified_at: "2026-11-03"
       <h2 id="recent-work">Recent work</h2>
       <a class="section-link" href="{{ '/publications/' | relative_url }}">All research</a>
     </div>
-    {% assign preprints = site.data.publications | where: "section", "preprint" %}
+    {% assign recent_work = site.data.publications | where_exp: "publication", "publication.recent_date" | sort: "recent_date" | reverse %}
     <ol class="publication-list recent-publications">
-      {% for publication in preprints limit: 3 %}{% include publication-item.html item=publication %}{% endfor %}
+      {% for publication in recent_work limit: 3 %}{% include publication-item.html item=publication %}{% endfor %}
     </ol>
   </section>
 

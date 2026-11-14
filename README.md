@@ -11,14 +11,20 @@ build step.
   details, and academic profile links.
 - Edit `_data/publications.yml`, `_data/presentations.yml`,
   `_data/teaching.yml`, and `_data/honors.yml` for the corresponding lists.
-  Entries appear in file order.
+  Research and other full lists retain file order.
 - Replace `assets/CV.pdf` when the CV is updated. The navigation and legacy CV
   URLs already point to this file.
 - Put new papers or slides in `assets/` and reference them from the appropriate
   YAML record.
 
-The homepage automatically displays the first three preprints from
-`_data/publications.yml`, so those entries do not need to be duplicated.
+The homepage's **Recent work** combines preprints and newly accepted papers from
+`_data/publications.yml`, sorts them by `recent_date` (newest first), and displays
+the first three. Use a quoted ISO date (`"YYYY-MM-DD"`): the initial public release
+date for a new preprint (arXiv v1 submission date for the current entries), then
+replace it with the date its acceptance news is added to the website. Keep this
+date when adding final journal publication details; it is separate from the
+bibliographic `year`. Older journal entries without a recorded announcement date
+are omitted from Recent work. No duplicate publication entry is needed.
 
 ## Local preview
 
