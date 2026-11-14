@@ -61,11 +61,12 @@
     - label: "arXiv"
       url: "https://arxiv.org/abs/2407.04521"
 
-- section: "preprint"
+- section: "journal"
   title: "Dynamic portfolio selection under generalized disappointment aversion"
   authors: ["Zongxia Liang", "Sheng Wang", "Jianming Xia", "Fengyi Yuan"]
-  year: 2024
-  details: "arXiv: 2401.08323"
+  venue: "Mathematics of Operations Research"
+  year: 2026
+  status: "Accepted"
   resources:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2401.08323"
