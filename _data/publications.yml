@@ -1,4 +1,14 @@
 - section: "preprint"
+  title: "Approximating Itô Processes in Adapted Wasserstein Distance with Finite Support Laws"
+  authors: ["Xihao He", "Fengyi Yuan"]
+  recent_date: "2026-11-17"
+  year: 2026
+  details: "arXiv: 2611.22282"
+  resources:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2611.22282"
+
+- section: "preprint"
   title: "Optimal portfolio and consumption under no-shorting constraints: The exploratory formulation and reinforcement learning"
   authors: ["Xun Li", "Xiang Yu", "Fengyi Yuan", "Yijie Zeng"]
   recent_date: "2026-10-31"
